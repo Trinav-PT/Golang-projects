@@ -19,6 +19,7 @@ func main() {
 	fmt.Println("how many rounds?")
 	fmt.Scanln(&rounds)
 	for i:=1;i<=rounds;i++{
+	fmt.Println("Round ",i)
 	fmt.Println("enter \n1 for rock \n2 for paper \n3 for scissors")
 	fmt.Scanln(&choice)
 	if choice == 1 {
