@@ -34,7 +34,7 @@ rand.Seed(time.Now().UnixNano())
 
 loop=0
 for loop==0{
-
+password.Reset()
 fmt.Println("welcome to random password generator")
 fmt.Println("1. Letters only \n2. Numbers only \n3. Letters with Numbers \n4. Letters and special chars \n5. Numbers and special chars \n6. Special chars only \n7. Use All")
 fmt.Scanln(&choicea)
